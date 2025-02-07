@@ -32,6 +32,16 @@ Uma outra folha, marcada com `6` e `3` em um lado, e `4` e `5` em outro
 
 Note que é um padrão regular, mas calculá-lo não é exatamente intuitivo. Este programa faz isso, reordena um PDF para que possa ser impresso para atender este formato.
 
+### Uso
+
+Para user o programa, basta executá-lo com seu PDF como parâmetro. Note que é necessário instalar o pacote `pypdf`
+
+instalar pacote:
+`~$ pip install pypdf`
+
+executar programa:
+`~$ py bookprinter.py target.pdf`
+
 ### Exemplo
 Dado um arquivo de `8` páginas:
 
